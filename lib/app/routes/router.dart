@@ -45,7 +45,7 @@ class PageRouter {
           return MaterialPageRoute(builder: (context) => const SettingsScreen());   
       default:
         return MaterialPageRoute(
-            builder: (BuildContext conktext) => const Scaffold(
+            builder: (BuildContext context) => const Scaffold(
                   body: Text('This Page does not Exist'),
                 ));
     }

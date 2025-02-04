@@ -88,7 +88,7 @@ class LoginScreen extends StatelessWidget {
             String email = model!.emailController.text;
             String password = model!.passwordController.text;
           
-            // Perform validation (optional)
+            
             if ( email.isEmpty || password.isEmpty) {
               // Show error message
               AppUtils.showError('Input Your Details');
