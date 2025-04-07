@@ -17,12 +17,13 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     // Simulate a time-consuming task (e.g., loading data) for the splash screen.
     // Replace this with your actual data loading logic.
-    Future.delayed(
-      const Duration(seconds: 4),
-      () {
-       Navigator.pushNamed(context, Routes.initialRoute);
-      },
-    );
+  Future.delayed(
+  const Duration(seconds: 4),
+  () {
+    Navigator.pushReplacementNamed(context, Routes.initialRoute);
+  },
+);
+
   }
 
   @override
